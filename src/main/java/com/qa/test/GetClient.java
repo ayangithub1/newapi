@@ -57,6 +57,10 @@ public class GetClient extends TestBase {
 		
 		// verify another value
 		util.getValueByPath(responsejson, jpath);
+<<<<<<< HEAD
 		util.getClass();
+=======
+		util.getValueByPath(jsonobject, first_name);
+>>>>>>> prod
 	}
 }
