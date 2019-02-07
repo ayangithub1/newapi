@@ -54,5 +54,8 @@ public class GetClient extends TestBase {
 		Assert.assertEquals(id, "2");
 		String first_name=util.getValueByPath(jsonobject, "/data[0]/first_name");
 		Assert.assertEquals("Janet", first_name);
+		
+		// verify another value
+		util.getValueByPath(responsejson, jpath);
 	}
 }
