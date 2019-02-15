@@ -63,6 +63,8 @@ public class GetClient extends TestBase {
 		util.toString();
 		
 		util.getClass();
+		
+		util.getClass();
 
 	}
 }
