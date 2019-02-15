@@ -56,11 +56,13 @@ public class GetClient extends TestBase {
 		Assert.assertEquals("Janet", first_name);
 		
 		// verify another value
-		util.getValueByPath(responsejson, jpath);
+		//util.getValueByPath(responsejson, jpath);
 
 		util.getClass();
 
 		util.toString();
+		
+		util.getClass();
 
 	}
 }
